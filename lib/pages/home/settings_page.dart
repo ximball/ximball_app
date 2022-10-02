@@ -1,4 +1,4 @@
-// ignore_for_file: prefer_const_constructors, duplicate_ignore, must_be_immutable
+// ignore_for_file: prefer_const_constructors, duplicate_ignore, must_be_immutable, deprecated_member_use
 
 import 'package:flutter/material.dart';
 
@@ -64,10 +64,10 @@ class _SettingPagesState extends State<SettingPages> {
                 Row(
                   children: <Widget>[
                     Container(
-                      width: 60,
-                      height: 60,
+                      width: 70,
+                      height: 70,
                       decoration: BoxDecoration(
-                        color: Colors.white,
+                        color: Color.fromARGB(255, 63, 63, 63),
                         shape: BoxShape.circle,
                         image: DecorationImage(
                           image: NetworkImage(
@@ -76,12 +76,13 @@ class _SettingPagesState extends State<SettingPages> {
                           fit: BoxFit.cover,
                         ),
                         border: Border.all(
-                          color: Colors.white,
+                          color: Color.fromARGB(255, 2, 2, 2),
                           width: 2.0,
                         ),
                       ),
                     ),
                     const SizedBox(width: 10.0),
+                    SizedBox(height: 20.0),
                     Expanded(
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
@@ -101,6 +102,7 @@ class _SettingPagesState extends State<SettingPages> {
                               color: Colors.grey.shade400,
                             ),
                           ),
+                          SizedBox(height: 10.0),
                         ],
                       ),
                     ),
