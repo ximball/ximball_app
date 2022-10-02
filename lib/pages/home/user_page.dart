@@ -99,7 +99,7 @@ class UserPages extends StatelessWidget {
       ),
       title: Text(
         company,
-        style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold),
+        style: TextStyle(color: Colors.black54, fontWeight: FontWeight.bold),
       ),
     );
   }
