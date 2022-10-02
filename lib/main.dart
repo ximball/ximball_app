@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:proyectoviajes/pages/home/bottom_home_pages.dart';
+
+import 'pages/home/bottom_home_pages.dart';
 
 void main() => runApp(const MyApp());
 

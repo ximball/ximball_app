@@ -1,4 +1,4 @@
-// ignore_for_file: prefer_const_constructors, null_check_always_fails, no_leading_underscores_for_local_identifiers, dead_code, sort_child_properties_last, duplicate_ignore, unused_element
+// ignore_for_file: prefer_const_constructors, null_check_always_fails, no_leading_underscores_for_local_identifiers, dead_code, sort_child_properties_last, duplicate_ignore, unused_element, unused_local_variable
 
 import 'package:flutter/material.dart';
 
@@ -99,7 +99,7 @@ class UserPages extends StatelessWidget {
       ),
       title: Text(
         company,
-        style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold),
+        style: TextStyle(color: Colors.black54, fontWeight: FontWeight.bold),
       ),
     );
   }

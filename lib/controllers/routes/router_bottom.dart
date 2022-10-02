@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:proyectoviajes/pages/home/places_page.dart';
-import 'package:proyectoviajes/pages/home/settings_page.dart';
-import 'package:proyectoviajes/pages/home/user_page.dart';
+
+import '../../pages/home/places_page.dart';
+import '../../pages/home/settings_page.dart';
+import '../../pages/home/user_page.dart';
 
 class RoutesButtoms extends StatelessWidget {
   final int index = 0;

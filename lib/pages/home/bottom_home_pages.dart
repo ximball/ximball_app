@@ -2,10 +2,12 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:proyectoviajes/pages/home/home_page.dart';
-import 'package:proyectoviajes/pages/home/places_page.dart';
-import 'package:proyectoviajes/pages/home/settings_page.dart';
-import 'package:proyectoviajes/pages/home/user_page.dart';
+
+import 'package:xinbal/pages/home/places_page.dart';
+import 'package:xinbal/pages/home/user_page.dart';
+
+import 'home_page.dart';
+import 'settings_page.dart';
 
 class BHomePages extends StatefulWidget {
   const BHomePages({super.key});
