@@ -1,6 +1,7 @@
 // ignore_for_file: prefer_const_constructors, duplicate_ignore, must_be_immutable, deprecated_member_use
 
 import 'package:flutter/material.dart';
+import 'package:xinbal/pages/home/user_page.dart';
 
 class SettingPages extends StatefulWidget {
   const SettingPages({super.key});
@@ -111,7 +112,7 @@ class _SettingPagesState extends State<SettingPages> {
                 const SizedBox(height: 20.0),
                 ListTile(
                   title: Text(
-                    "Configuracion Personal",
+                    "Configuracion",
                     // style: whiteBoldText,
                   ),
                   subtitle: Text(
@@ -122,7 +123,10 @@ class _SettingPagesState extends State<SettingPages> {
                     Icons.keyboard_arrow_right,
                     color: Colors.grey.shade400,
                   ),
-                  onTap: () {},
+                  onTap: () {
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (context) => UserPages()));
+                  },
                 ),
                 ListTile(
                   title: Text(

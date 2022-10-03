@@ -8,13 +8,16 @@ class UserPages extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var _itemHeader = TextStyle(
-      color: Colors.grey.shade600,
+      color: Color.fromARGB(255, 255, 255, 255),
       fontSize: 16.0,
     );
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.transparent,
-        elevation: 0,
+        title: Text('Configuracion'),
+
+        //backgroundColor: Colors.transparent,
+        //elevation: 9,
+
         automaticallyImplyLeading: false,
       ),
       body: SingleChildScrollView(

@@ -1,4 +1,7 @@
+// ignore_for_file: unused_import
+
 import 'package:flutter/material.dart';
+// ignore: unused_import
 import 'package:xinbal/pages/search/search_page.dart';
 import 'package:xinbal/utils/Image_util.dart';
 
@@ -28,7 +31,7 @@ class HomePages extends StatelessWidget {
                   decoration: InputDecoration(
                       contentPadding: EdgeInsets.symmetric(
                           horizontal: 20.0, vertical: 15.0),
-                      hintText: "Buscar",
+                      hintText: "Buscar lugar",
                       border: InputBorder.none,
                       suffixIcon: IconButton(
                           onPressed: () {}, icon: Icon(Icons.search))),

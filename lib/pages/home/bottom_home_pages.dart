@@ -28,8 +28,7 @@ class _BHomePagesState extends State<BHomePages> {
     List pagesB = <Widget>[
       const HomePages(),
       const PlacePages(),
-      const SettingPages(),
-      const UserPages(),
+      const SettingPages()
     ];
 
     return Scaffold(
@@ -49,9 +48,9 @@ class _BHomePagesState extends State<BHomePages> {
           borderRadius: BorderRadius.circular(50),
         ),
         child: ListView.builder(
-          itemCount: 4,
+          itemCount: 3,
           scrollDirection: Axis.horizontal,
-          padding: EdgeInsets.symmetric(horizontal: screenWidth * .024),
+          padding: EdgeInsets.symmetric(horizontal: screenWidth * .0994),
           itemBuilder: (context, index) => InkWell(
             onTap: () {
               setState(() {
@@ -102,7 +101,6 @@ class _BHomePagesState extends State<BHomePages> {
   List<IconData> listOfIcons = [
     Icons.home_rounded,
     Icons.map_rounded,
-    Icons.settings_rounded,
     Icons.person_rounded,
   ];
 }
