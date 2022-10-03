@@ -27,24 +27,46 @@ class UserPages extends StatelessWidget {
               padding: const EdgeInsets.all(16.0),
               decoration: BoxDecoration(color: Colors.grey.shade200),
               child: Text(
-                  "Promocionor algún paqute de viajes para que ganes dineroMás información"),
+                  "Promocionor algún paqute de viajes para que ganes dinero.   "
+                  "Más información"),
             ),
             _buildTitle("Configuracion de la cuenta"),
-            _buildExperienceRow(
-              company: "Informacion Personal",
+            ListTile(
+              onTap: () {},
+              trailing: Icon(
+                Icons.keyboard_arrow_right,
+                color: Colors.grey.shade400,
+              ),
+              title: Text('Informacion Personal'),
             ),
             SizedBox(height: 20.0),
             _buildTitle("Proporcionar Lugares Turisticos"),
-            _buildExperienceRow(
-              company: "Anuncia una nueva Experiencia",
+            ListTile(
+              onTap: () {},
+              trailing: Icon(
+                Icons.keyboard_arrow_right,
+                color: Colors.grey.shade400,
+              ),
+              title: Text('Anuncia una nueva Experiencia'),
             ),
             SizedBox(height: 20.0),
             _buildTitle("Asistencias"),
-            _buildExperienceRow(
-              company: "Como funciona Ximbal",
+            ListTile(
+              onTap: () {},
+              trailing: Icon(
+                Icons.keyboard_arrow_right,
+                color: Colors.grey.shade400,
+              ),
+              title: Text('Como funciona Ximbal'),
             ),
-            _buildExperienceRow(
-              company: "Como puedes ayudar a reforestar el planeta",
+            SizedBox(height: 20.0),
+            ListTile(
+              onTap: () {},
+              trailing: Icon(
+                Icons.keyboard_arrow_right,
+                color: Colors.grey.shade400,
+              ),
+              title: Text('Como puedes ayudar a reforestar el planeta'),
             ),
             SizedBox(height: 20.0),
             _buildTitle("Contact"),
@@ -161,6 +183,7 @@ class UserPages extends StatelessWidget {
                         'https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-512.png'[
                             4])))),
         SizedBox(width: 20.0),
+
         Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           // ignore: prefer_const_literals_to_create_immutables
