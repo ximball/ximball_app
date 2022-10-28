@@ -47,21 +47,25 @@ class _SettingPagesState extends State<SettingPages> {
           )
         ],
       ),
+      
       body: Theme(
         data: Theme.of(context).copyWith(
           brightness: Brightness.dark,
           primaryColor: Color.fromARGB(255, 10, 10, 10),
         ),
+        
         child: DefaultTextStyle(
           // ignore: prefer_const_constructors
           style: TextStyle(
             color: Color.fromARGB(255, 0, 0, 0),
           ),
+        
           child: SingleChildScrollView(
             padding: const EdgeInsets.all(32.0),
             child: Column(
               children: <Widget>[
                 const SizedBox(height: 30.0),
+        
                 Row(
                   children: <Widget>[
                     Container(

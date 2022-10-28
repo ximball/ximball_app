@@ -11,16 +11,22 @@ class UserPages extends StatelessWidget {
       color: Color.fromARGB(255, 255, 255, 255),
       fontSize: 16.0,
     );
+
+
     return Scaffold(
       appBar: AppBar(
         title: Text('Configuracion'),
 
         //backgroundColor: Colors.transparent,
-        //elevation: 9,
+        elevation: 0,
 
         automaticallyImplyLeading: false,
       ),
+
+
+
       body: SingleChildScrollView(
+        
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
@@ -33,7 +39,11 @@ class UserPages extends StatelessWidget {
                   "Promocionor algún paqute de viajes para que ganes dinero.   "
                   "Más información"),
             ),
+
+
+            SizedBox(height: 20,),
             _buildTitle("Configuracion de la cuenta"),
+
             ListTile(
               onTap: () {},
               trailing: Icon(
@@ -42,6 +52,9 @@ class UserPages extends StatelessWidget {
               ),
               title: Text('Informacion Personal'),
             ),
+
+
+            
             SizedBox(height: 20.0),
             _buildTitle("Proporcionar Lugares Turisticos"),
             ListTile(
@@ -108,9 +121,15 @@ class UserPages extends StatelessWidget {
             SizedBox(height: 20.0),
           ],
         ),
+
+        
       ),
     );
   }
+
+
+
+
 
   ListTile _buildExperienceRow({required String company}) {
     return ListTile(
@@ -153,7 +172,7 @@ class UserPages extends StatelessWidget {
 
   Widget _buildTitle(String title) {
     return Padding(
-      padding: const EdgeInsets.only(left: 16.0),
+      padding: const EdgeInsets.only(left: 16.0, right: 16.0),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
