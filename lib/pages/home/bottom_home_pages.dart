@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:xinbal/pages/home/cuenta_page.dart';
 
 import 'package:xinbal/pages/home/places_page.dart';
 import 'package:xinbal/pages/home/user_page.dart';
@@ -28,7 +29,7 @@ class _BHomePagesState extends State<BHomePages> {
     List pagesB = <Widget>[
       const HomePages(),
       const PlacePages(),
-      const SettingPages()
+      const CuentaScreen()
     ];
 
     return Scaffold(

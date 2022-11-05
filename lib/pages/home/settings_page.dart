@@ -1,6 +1,7 @@
 // ignore_for_file: prefer_const_constructors, duplicate_ignore, must_be_immutable, deprecated_member_use
 
 import 'package:flutter/material.dart';
+import 'package:xinbal/pages/home/cuenta_page.dart';
 import 'package:xinbal/pages/home/user_page.dart';
 
 class SettingPages extends StatefulWidget {

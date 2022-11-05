@@ -1,5 +1,6 @@
 
 import 'package:flutter/material.dart';
+import 'package:xinbal/pages/home/settings_page.dart';
 
 class CuentaScreen extends StatelessWidget {
    
@@ -82,8 +83,25 @@ class CuentaScreen extends StatelessWidget {
 
 
 
+          //ES DE DEJAR SUGERENCIA
+          const Text('Configuracion',
+            style:  TextStyle(
+                fontSize: 20,
+                fontWeight: FontWeight.w500
+            ),
+          ),
 
-
+          ListTile(
+            leading: const Icon(Icons.note_add_rounded),
+            title: const Text('Configuracion Usuario'),
+            trailing: const Icon(Icons.arrow_forward_ios_rounded),
+            onTap: (){
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => SettingPages()));
+            },
+          ),
+          const Divider(),
+          const SizedBox(height: 30),
 
           //ES DE DEJAR SUGERENCIA
          const Text('Dejar una sugerencia',
