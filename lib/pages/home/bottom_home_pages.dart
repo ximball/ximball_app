@@ -5,7 +5,7 @@ import 'package:flutter/services.dart';
 import 'package:xinbal/pages/home/cuenta_page.dart';
 
 import 'package:xinbal/pages/home/places_page.dart';
-import 'package:xinbal/pages/home/user_page.dart';
+import 'package:xinbal/pages/home/user_page_NOUTILIZAR.dart';
 
 import 'home_page.dart';
 import 'settings_page.dart';

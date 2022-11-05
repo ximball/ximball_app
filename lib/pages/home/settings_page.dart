@@ -2,7 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:xinbal/pages/home/cuenta_page.dart';
-import 'package:xinbal/pages/home/user_page.dart';
+import 'package:xinbal/pages/home/user_page_NOUTILIZAR.dart';
 
 class SettingPages extends StatefulWidget {
   const SettingPages({super.key});
@@ -39,6 +39,7 @@ class _SettingPagesState extends State<SettingPages> {
           'Configuracion',
           style: TextStyle(color: _dark ? Colors.white : Colors.black),
         ),
+        //acciones para modo oscuro
         actions: <Widget>[
           IconButton(
             onPressed: () {
@@ -96,12 +97,14 @@ class _SettingPagesState extends State<SettingPages> {
                           // ignore: prefer_const_constructors
                           Text(
                             "Josue Vasquez",
+
                             // ignore: prefer_const_constructors
                             style: TextStyle(
                               fontWeight: FontWeight.bold,
                               fontSize: 20.0,
                             ),
                           ),
+                          SizedBox(height: 10.0),
                           Text(
                             "Heroica Ciudad de Tlaxiaco",
                             style: TextStyle(

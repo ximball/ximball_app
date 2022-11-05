@@ -13,8 +13,6 @@ class CuentaScreen extends StatelessWidget {
   // TextStyle fontSizeTitulo = const TextStyle(fontSize: 20);
   // TextStyle fontSizeTexto = const TextStyle(fontSize: 15);
 
-  
- 
 
 
     return Scaffold(
@@ -36,22 +34,13 @@ class CuentaScreen extends StatelessWidget {
           const SizedBox(height: 70,),
 
 
-
-
           const Text('Cuenta',
           style: TextStyle(
             fontSize: 35,
             fontWeight: FontWeight.w500,
           ),),
-          
-          
-          
-          
-          
+
           const SizedBox(height: 40,),
-
-
-
 
           ListTile(
             contentPadding: EdgeInsets.only(right: 30),
@@ -66,22 +55,8 @@ class CuentaScreen extends StatelessWidget {
             onTap: (){},
           ),
 
-
-
           const Divider(),
-          
-          
-          
-          
-          
-          
-          
-          
           const SizedBox(height: 30),
-
-
-
-
 
           //ES DE DEJAR SUGERENCIA
           const Text('Configuracion',
@@ -92,7 +67,7 @@ class CuentaScreen extends StatelessWidget {
           ),
 
           ListTile(
-            leading: const Icon(Icons.note_add_rounded),
+            leading: const Icon(Icons.settings),
             title: const Text('Configuracion Usuario'),
             trailing: const Icon(Icons.arrow_forward_ios_rounded),
             onTap: (){

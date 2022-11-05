@@ -2,31 +2,37 @@
 
 import 'package:flutter/material.dart';
 
-class UserPages extends StatelessWidget {
+class UserPages extends StatefulWidget {
   const UserPages({super.key});
 
+  @override
+  State<UserPages> createState() => _UserPagesState();
+}
+
+class _UserPagesState extends State<UserPages> {
   @override
   Widget build(BuildContext context) {
     var _itemHeader = TextStyle(
       color: Color.fromARGB(255, 255, 255, 255),
-      fontSize: 16.0,
+      fontSize: 6.0,
     );
 
 
     return Scaffold(
+      backgroundColor: Color.fromARGB(255, 255, 255, 255),
       appBar: AppBar(
-        title: Text('Configuracion'),
+        elevation: 0,
+        title: Text('Configuracion',
+          ),
 
         //backgroundColor: Colors.transparent,
-        elevation: 0,
-
         automaticallyImplyLeading: false,
       ),
 
 
 
       body: SingleChildScrollView(
-        
+
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
@@ -54,7 +60,7 @@ class UserPages extends StatelessWidget {
             ),
 
 
-            
+
             SizedBox(height: 20.0),
             _buildTitle("Proporcionar Lugares Turisticos"),
             ListTile(
@@ -122,14 +128,10 @@ class UserPages extends StatelessWidget {
           ],
         ),
 
-        
+
       ),
     );
   }
-
-
-
-
 
   ListTile _buildExperienceRow({required String company}) {
     return ListTile(

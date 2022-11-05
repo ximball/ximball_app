@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../../pages/home/places_page.dart';
 import '../../pages/home/settings_page.dart';
-import '../../pages/home/user_page.dart';
+import '../../pages/home/user_page_NOUTILIZAR.dart';
 
 class RoutesButtoms extends StatelessWidget {
   final int index = 0;
