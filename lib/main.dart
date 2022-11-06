@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:xinbal/pages/introduction/screenPages.dart';
 
-import 'package:xinbal/pages/introduction/unboxing_pages.dart';
-
 void main() => runApp(const MyApp());
 
 class MyApp extends StatelessWidget {
