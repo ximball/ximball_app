@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:xinbal/pages/introduction/screenPages.dart';
 
-import 'pages/home/bottom_home_pages.dart';
+import 'package:xinbal/pages/introduction/unboxing_pages.dart';
 
 void main() => runApp(const MyApp());
 
@@ -13,7 +14,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       // ignore: prefer_const_constructors
-      home: BHomePages(),
+      home: 
+      ScreenPages(),
     );
   }
 }

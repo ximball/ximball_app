@@ -1,7 +1,6 @@
 // ignore_for_file: prefer_const_constructors, duplicate_ignore, must_be_immutable, deprecated_member_use
 
 import 'package:flutter/material.dart';
-import 'package:xinbal/pages/home/cuenta_page.dart';
 import 'package:xinbal/pages/home/user_page_NOUTILIZAR.dart';
 
 class SettingPages extends StatefulWidget {
@@ -45,7 +44,7 @@ class _SettingPagesState extends State<SettingPages> {
             onPressed: () {
               _dark = !_dark;
             },
-            icon: Icon(Icons.abc),
+            icon: Icon(Icons.dark_mode),
           )
         ],
       ),

@@ -1,4 +1,6 @@
-// ignore_for_file: unused_import
+// ignore: duplicate_ignore
+// ignore: duplicate_ignore
+// ignore_for_file: unused_import, duplicate_ignore
 
 import 'package:flutter/material.dart';
 // ignore: unused_import

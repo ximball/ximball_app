@@ -5,10 +5,8 @@ import 'package:flutter/services.dart';
 import 'package:xinbal/pages/home/cuenta_page.dart';
 
 import 'package:xinbal/pages/home/places_page.dart';
-import 'package:xinbal/pages/home/user_page_NOUTILIZAR.dart';
 
 import 'home_page.dart';
-import 'settings_page.dart';
 
 class BHomePages extends StatefulWidget {
   const BHomePages({super.key});
@@ -73,7 +71,7 @@ class _BHomePagesState extends State<BHomePages> {
                       width: index == currentIndex ? screenWidth * .2125 : 0,
                       decoration: BoxDecoration(
                         color: index == currentIndex
-                            ? Color.fromARGB(255, 167, 245, 186).withOpacity(.2)
+                            ? Color(0xFFA7F5BA).withOpacity(.2)
                             : Colors.transparent,
                         borderRadius: BorderRadius.circular(50),
                       ),
